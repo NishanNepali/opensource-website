@@ -45,7 +45,7 @@
   color: var(--tw-color-text-primary);
 
   @media (prefers-color-scheme: dark) {
-    color: white;
+    color: fff;
   }
 }
 
@@ -88,13 +88,13 @@
 }
 
 #search-box {
-  color: white;
+  color: #fff;
   border: 0;
   min-width: 90%;
   line-height: calc(1.8rem - (1px * 2));
   background-color: transparent;
   &::placeholder {
-    color: white;
+    color: #fff;
   }
   &:focus {
     outline: none;
